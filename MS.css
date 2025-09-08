@@ -1,0 +1,82 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color:aqua;
+}
+
+#id-div{
+    background-color: aqua;
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform : translate(-50%,-50%);
+}
+.controls{
+    position: absolute;
+    height: 48px;
+    top: 17px;
+    left: 18px;
+   
+}
+.game table{
+    position: relative;
+    left: 18px;
+    top: 80px;
+    border-spacing: 0px;
+}
+.game td{
+    background-image: url('images/Normal.bmp');
+    padding: 0px;
+}
+.controls button{
+    padding: 0px;
+    border: 0px;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top : 50%;
+    left: 50%;
+    transform : translate(-53%,-53%);
+    background-image: url('images/SmileFace.bmp');
+}
+.controls td{
+    width: 19px;
+    height: 35px;
+    position: relative;
+    padding: 0px;
+}
+.controls table{
+    width: 57px;
+    height: 35px;
+    border-spacing: 0px;
+}
+.cronometru{
+    position: absolute;
+    right: 7px;
+    top: 6px;
+    width: 57px;
+    height: 35px;
+    padding: 0px;
+}
+
+.contor_bombe{
+    position: absolute;
+    left : 6px;
+    top: 6px;
+    width: 57px;
+    height: 35px;
+    padding: 0px;
+}
+
+#backToMenu{
+    position : absolute;
+    width : 200px;
+    height: 100px;
+    top : 85%;
+    font: 18px arial black;
+    background-color:chartreuse;
+    border-radius: 10px;
+}
+#backToMenu:hover{
+    border-color:red;
+}
